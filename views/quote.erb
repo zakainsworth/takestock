@@ -1,0 +1,18 @@
+<td><abbr title="<%= quote_data['name'] %>"><%= quote_data['t'] %></abbr></td>
+<td>$<%= quote_data['l'] %></td>
+<td>
+  <span class="label <%= change_class %>"><%= quote_data['c'] %> (<%= quote_data['cp'] %>%)</span>
+</td>
+<td><%= quote_data['mc'] %></td>
+<td><%= quote_data['vo'] %></td>
+<td><%= quote_data['op'] %></td>
+<td><%= quote_data['lo'] %></td>
+<td><%= quote_data['hi'] %></td>
+<td><%= quote_data['lo52'] %></td>
+<td><%= quote_data['hi52'] %></td>
+<td><%= quote_data['eps'] %></td>
+<td><%= quote_data['pe'] %></td>
+<td><%= quote_data['beta'] %></td>
+<td>
+  <button type="button" class="btn btn-mini" onclick="javascript:remove_symbol('<%= quote_data['t'] %>');"><i class="icon-trash"></i></button>
+</td>
